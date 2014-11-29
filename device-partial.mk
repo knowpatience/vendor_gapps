@@ -40,9 +40,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm:google \
     vendor/google/proprietary/system/usr/srec/en-US/wordlist:system/usr/srec/en-US/wordlist:google \
 
-#Chrome Libs
+#ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/Chrome/lib/arm/libchrome.2171.59.so:system/lib/libchrome2171.59.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2171.90.so:system/lib/libchrome2171.90.so:google \
    vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #GCam Libs
 PRODUCT_COPY_FILES += \
@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += \
 # System Apps
 PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
-    Chrome \
+    ChromeBeta \
     CloudPrint2 \
     ConfigUpdater \
     DeskClockGoogle \
@@ -116,6 +116,7 @@ PRODUCT_PACKAGES += \
     Gmail2 \
     GoogleCamera \
     GoogleContactsSyncAdapter \
+    GoogleHome \
     GoogleTTS \
     Hangouts \
     Keep \
