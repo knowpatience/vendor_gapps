@@ -44,6 +44,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2171.90.so:system/lib/libchrome2171.90.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
+#Drive Libs
+PRODUCE_COPY_FILES += \
+   vendor/google/proprietary/system/app/Drive/lib/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/libfoxit.so:system/lib/libfoxit.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/libparcel_utils.so:system/lib/libparcel_utils.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/librectifier.so:system/lib/librectifier.so:google
 #GCam Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/lib/libgcam.so:google \
