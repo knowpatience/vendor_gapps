@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2171.90.so:system/lib/libchrome2171.90.so:google \
-   vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #GCam Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/lib/libgcam.so:google \
@@ -120,15 +120,13 @@ PRODUCT_PACKAGES += \
     GoogleTTS \
     Hangouts \
     Keep \
-#    LatinImeGoogle \
     Maps \
     Music2 \
-#    PlayGames \
     PlusOne \
     PrebuiltBugle \
     Street \
     Videos \
-    YouTube \
+    YouTube 
 
 # Priv-apps
 PRODUCT_PACKAGES += \
