@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libgmscore.so:system/lib/libgmscore.so:google \
     vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libgms-ocrclient.so:system/lib/libgms-ocrclient.so:google \
     vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libjgcastservice.so:system/lib/libjgcastservice.so:google \
+vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libsslwrapper_jni.so:system/lib/libsslwrapper_jni.so:google \
     vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libWhisper.so:system/lib/libWhisper.so:google \
 #GTTS Libs
 PRODUCT_COPY_FILES +=\
