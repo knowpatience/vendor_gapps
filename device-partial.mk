@@ -83,7 +83,12 @@ PRODUCT_COPY_FILES +=\
 #Hangouts Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporter.so:system/lib/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libframesequence.so:system/lib/libframesequence.so:google \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/lib/libpvideochat_jni.so:google \
+#Inbox Libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:system/lib/libcrashreporter.so:google \
+vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/lib/libindexeddb.so:google
 #LatinImeGoogle
 #PRODUCT_COPY_FILES += \
 #    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle:google \
@@ -126,6 +131,7 @@ PRODUCT_PACKAGES += \
     GoogleHome \
     GoogleTTS \
     Hangouts \
+    Inbox \
     Keep \
     Maps \
     Music2 \
