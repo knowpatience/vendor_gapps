@@ -3,10 +3,14 @@
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh:google \
     vendor/google/proprietary/system/etc/g.prop:system/etc/g.prop:google \
+    vendor/google/proprietary/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml:google \
+    vendor/google/proprietary/system/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml:google \
     vendor/google/proprietary/system/etc/permissions/features.xml:system/etc/permissions/features.xml:google \
+    vendor/google/proprietary/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar:google \
+    vendor/google/proprietary/system/framework/com.google.android.dialer.support.jar:system/framework/com.google.android.dialer.support.jar:google \
     vendor/google/proprietary/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar:google \
     vendor/google/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar:google \
     vendor/google/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar:google \
@@ -46,10 +50,10 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCE_COPY_FILES += \
+   vendor/google/proprietary/system/app/Drive/lib/libbitmap_parce.so:system/lib/libbitmap_parcel.so:google \
    vendor/google/proprietary/system/app/Drive/lib/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
    vendor/google/proprietary/system/app/Drive/lib/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
    vendor/google/proprietary/system/app/Drive/lib/libfoxit.so:system/lib/libfoxit.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/libparcel_utils.so:system/lib/libparcel_utils.so:google \
    vendor/google/proprietary/system/app/Drive/lib/librectifier.so:system/lib/librectifier.so:google
 #GCam Libs
 PRODUCT_COPY_FILES += \
@@ -65,18 +69,18 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so:google \
     vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librsjni.so:system/lib/librsjni.so:google \
     vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libRSSupport.so:system/lib/libRSSupport.so:google \
-#GmsCore Libs
+#PrebuiltGmsCore Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libAppDataSearch.so:system/lib/libAppDataSearch.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libconscrypt_gmscore_jni.so:system/lib/libconscrypt_gmscore_jni.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libgcastv2_base.so:system/lib/libgcastv2_base.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libgcastv2_support.so:system/lib/libgcastv2_support.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libgmscore.so:system/lib/libgmscore.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libgms-ocrclient.so:system/lib/libgms-ocrclient.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libjgcastservice.so:system/lib/libjgcastservice.so:google \
-vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libsslwrapper_jni.so:system/lib/libsslwrapper_jni.so:google \
-    vendor/google/proprietary/system/priv-app/GmsCore/lib/arm/libWhisper.so:system/lib/libWhisper.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:system/lib/libAppDataSearch.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:system/lib/libconscrypt_gmscore_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:system/lib/libgcastv2_base.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:system/lib/libgcastv2_support.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:system/lib/libgmscore.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:system/lib/libgms-ocrclient.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:system/lib/libjgcastservice.so:google \
+vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/lib/libsslwrapper_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/lib/libWhisper.so:google \
 #GTTS Libs
 PRODUCT_COPY_FILES +=\
     vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so:google \
@@ -112,7 +116,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so:google \
 #Videos Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Videos/lib/arm/libWVphoneAPI.so:system/lib/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Videos/lib/arm/libWVphoneAPI.so:system/lib/libcrashreporter.so:google 
+#Wallet Libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/priv-app/Wallet/lib/armeabi/libgoogle-ocrclient.so:system/lib/libgoogle-ocrclient.so:google
 #YouTube Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libcronet.so:system/lib/libcronet.so:google \
@@ -144,7 +151,8 @@ PRODUCT_PACKAGES += \
 
 # Priv-apps
 PRODUCT_PACKAGES += \
-   GmsCore \
+   CalendarProvider \
+   PrebuiltGmsCore \
    GoogleBackupTransport \
    GoogleFeedback \
    GoogleLoginService \
@@ -154,5 +162,6 @@ PRODUCT_PACKAGES += \
    Phonesky \
    SetupWizard \
    talkback \
-   Velvet 
+   Velvet \
+   Wallet
 
