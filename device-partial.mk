@@ -50,11 +50,11 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCE_COPY_FILES += \
-   vendor/google/proprietary/system/app/Drive/lib/libbitmap_parce.so:system/lib/libbitmap_parcel.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/libfoxit.so:system/lib/libfoxit.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/librectifier.so:system/lib/librectifier.so:google
+   vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parce.so:system/lib/libbitmap_parcel.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/lib/libfoxit.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/lib/librectifier.so:google
 #GCam Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/lib/libgcam.so:google \
@@ -154,6 +154,7 @@ PRODUCT_PACKAGES += \
    CalendarProvider \
    PrebuiltGmsCore \
    GoogleBackupTransport \
+   GoogleDialer \
    GoogleFeedback \
    GoogleLoginService \
    GoogleOneTimeInitializer \
