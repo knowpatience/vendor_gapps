@@ -46,8 +46,15 @@ PRODUCT_COPY_FILES += \
 
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2171.90.so:system/lib/libchrome2171.90.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.36.so:system/lib/libchrome.2214.36.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
+#Docs Libs
+PRODUCT_COPY_FILES += \
+   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libbitmap_parcel.so:system/lib/libbitmap_parcel.so:google \
+   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
+   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libfoxit.so:system/lib/libfoxit.so:google \
+   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/librectifier.so:system/lib/librectifier.so:google
 #Drive Libs
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/lib/libbitmap_parcel.so:google \
@@ -57,18 +64,18 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/lib/librectifier.so:google
 #GCam Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/lib/libgcam.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:system/lib/libgcam_swig_jni.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libjni_jpegutil.so:system/lib/libjni_jpegutil.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libjpeg.so:system/lib/libjpeg.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/liblightcycle.so:system/lib/liblightcycle.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librefocus.so:system/lib/librefocus.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librsjni.so:system/lib/librsjni.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libRSSupport.so:system/lib/libRSSupport.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:system/lib/libgcam.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam_swig_jni.so:system/lib/libgcam_swig_jni.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_jpegutil.so:system/lib/libjni_jpegutil.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjpeg.so:system/lib/libjpeg.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/liblightcycle.so:system/lib/liblightcycle.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librefocus.so:system/lib/librefocus.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librsjni.so:system/lib/librsjni.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:system/lib/libRSSupport.so:google \
 #PrebuiltGmsCore Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:system/lib/libAppDataSearch.so:google \
@@ -116,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so:google \
 #Videos Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Videos/lib/arm/libWVphoneAPI.so:system/lib/libcrashreporter.so:google 
+    vendor/google/proprietary/system/app/Videos/lib/armeabi/libWVphoneAPI.so:system/lib/libcrashreporter.so:google 
 #Wallet Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Wallet/lib/armeabi/libgoogle-ocrclient.so:system/lib/libgoogle-ocrclient.so:google
@@ -132,6 +139,7 @@ PRODUCT_PACKAGES += \
     CloudPrint2 \
     ConfigUpdater \
     DeskClockGoogle \
+    Docs \
     Drive \
     Gmail2 \
     GoogleCamera \
