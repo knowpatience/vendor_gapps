@@ -48,20 +48,25 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.36.so:system/lib/libchrome.2214.36.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
-#Docs Libs
-PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libbitmap_parcel.so:system/lib/libbitmap_parcel.so:google \
-   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
-   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
-   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/libfoxit.so:system/lib/libfoxit.so:google \
-   vendor/google/proprietary/system/app/Docs/lib/armeabi-v7a/librectifier.so:system/lib/librectifier.so:google
 #Drive Libs
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/lib/libbitmap_parcel.so:google \
    vendor/google/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
    vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
    vendor/google/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/lib/libfoxit.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/lib/librectifier.so:google
+   vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/lib/librectifier.so:google \
+#EditorsDocs Libs
+PRODUCT_COPY_FILES += \
+   vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
+  vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libkix_ndk1.so:system/lib/libkix_ndk1.so:google \
+#EditorsSheets Libs
+PRODUCT_COPY_FILES += \
+   vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libritz_ndk1.so:system/lib/libritz_ndk1.so:google \
+#EditorsSlides Libs
+PRODUCT_COPY_FILES += \
+   vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:system/lib/libpunch_ndk1.so:google \
 #GCam Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:system/lib/libgcam.so:google \
@@ -139,14 +144,17 @@ PRODUCT_PACKAGES += \
     CloudPrint2 \
     ConfigUpdater \
     DeskClockGoogle \
-    Docs \
     Drive \
+    EditorsDocs \
+    EditorsSheets \
+    EditorSlides \
     Gmail2 \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleHome \
     GoogleTTS \
     Hangouts \
+    HangoutsDialer \
     Inbox \
     Keep \
     Maps \
