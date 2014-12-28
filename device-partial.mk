@@ -3,6 +3,7 @@
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh:google \
     vendor/google/proprietary/system/etc/g.prop:system/etc/g.prop:google \
+    vendor/google/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml:google \
@@ -95,8 +96,8 @@ vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/lib/libWhisper.so:google \
 #GTTS Libs
 PRODUCT_COPY_FILES +=\
-    vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so:google \
-    vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libspeexwrapper.so:system/lib/libspeexwrapper.so:google \
+    vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libpatts_engine_jni_api_ub.210303130.so:system/lib/libpatts_engine_jni_api_ub.210303130.so:google \
+    vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libspeexwrapper_ub.210303130.so:system/lib/libspeexwrapper_ub.210303130.so:google \
 #Hangouts Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporter.so:system/lib/libcrashreporter.so:google \
@@ -159,8 +160,11 @@ PRODUCT_PACKAGES += \
     Keep \
     Maps \
     Music2 \
+    Newsstand \
     PlusOne \
     PrebuiltBugle \
+    PrebuiltExchange3Google \
+    PrebuiltNewsWeather \
     Street \
     Videos \
     YouTube 
