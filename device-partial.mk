@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.36.so:system/lib/libchrome.2214.36.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.45.so:system/lib/libchrome.2214.45.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCT_COPY_FILES += \

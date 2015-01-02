@@ -52,7 +52,7 @@ app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so
 app/GoogleCamera/GoogleCamera.apk
 app/Music2/Music2.apk
 app/ConfigUpdater/ConfigUpdater.apk
-app/ChromeBeta/lib/libchrome.2214.36.so
+app/ChromeBeta/lib/libchrome.2214.45.so
 app/ChromeBeta/lib/arm/libchromium_android_linker.so
 app/ChromeBeta/ChromeBeta.apk
 app/GoogleHome/GoogleHome.apk
