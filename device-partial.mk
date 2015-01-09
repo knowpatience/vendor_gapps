@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.45.so:system/lib/libchrome.2214.45.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.69.so:system/lib/libchrome.2214.69.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCT_COPY_FILES += \
@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES +=\
 #Hangouts Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporter.so:system/lib/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcronet.so:system/lib/libcronet.so:google \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libframesequence.so:system/lib/libframesequence.so:google \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/lib/libpvideochat_jni.so:google \
 #Inbox Libs
@@ -124,6 +125,7 @@ PRODUCT_COPY_FILES += \
 #Velvet Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so:google \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libcronet.so:system/lib/libcronet.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so:google \
 #Videos Libs
