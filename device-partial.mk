@@ -108,8 +108,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:system/lib/libcrashreporter.so:google \
 vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/lib/libindexeddb.so:google
 #LatinImeGoogle
-#PRODUCT_COPY_FILES += \
-#    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle:google \
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle:google \
 #Maps Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Maps/lib/arm/libcrashreporter.so:system/lib/libcrashreporter.so:google \
