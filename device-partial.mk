@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.69.so:system/lib/libchrome.2214.69.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.87.so:system/lib/libchrome.2214.87.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCT_COPY_FILES += \
@@ -108,11 +108,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:system/lib/libcrashreporter.so:google \
 vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/lib/libindexeddb.so:google
 #LatinImeGoogle
-PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle:google \
+#PRODUCT_COPY_FILES += \
+#    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle:google \
 #Maps Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Maps/lib/arm/libcrashreporter.so:system/lib/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Maps/lib/arm/libcrashreporterer.so:system/lib/libcrashreporterer.so:google \
     vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/lib/libgmm-jni.so:google \
 #PlusOne Libs
 PRODUCT_COPY_FILES += \
@@ -137,6 +137,7 @@ PRODUCT_COPY_FILES += \
 #YouTube Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libcronet.so:system/lib/libcronet.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libfilterframework_jni.so:system/lib/libfilterframework_jni.so:google \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libm2ts_player.so:system/lib/libm2ts_player.so:google \
 
 # System Apps
