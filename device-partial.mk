@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.87.so:system/lib/libchrome.2214.87.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.89.so:system/lib/libchrome.2214.89.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCT_COPY_FILES += \
@@ -59,14 +59,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
   vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libkix_ndk1.so:system/lib/libkix_ndk1.so:google \
+  vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
 #EditorsSheets Libs
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
    vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libritz_ndk1.so:system/lib/libritz_ndk1.so:google \
+  vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
 #EditorsSlides Libs
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
    vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:system/lib/libpunch_ndk1.so:google \
+  vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
 #GCam Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:system/lib/libgcam.so:google \
@@ -116,7 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/lib/libgmm-jni.so:google \
 #PlusOne Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporter.so:system/lib/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/lib/libcrashreporterer.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libcronet.so:system/lib/libcronet.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libfilterframework_jni.so:system/lib/libfilterframework_jni.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:system/lib/libmoviemaker-jni.so:google \
