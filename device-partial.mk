@@ -1,7 +1,6 @@
 
 # GApps dependencies
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh:google \
     vendor/google/proprietary/system/etc/g.prop:system/etc/g.prop:google \
     vendor/google/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml:google \
@@ -46,7 +45,7 @@ PRODUCT_COPY_FILES += \
 
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.2214.89.so:system/lib/libchrome.2214.89.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.so:system/lib/libchrome.so:google \
    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCT_COPY_FILES += \
@@ -119,12 +118,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/lib/libgmm-jni.so:google \
 #PlusOne Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/lib/libcrashreporterer.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcronet.so:system/lib/libcronet.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libfilterframework_jni.so:system/lib/libfilterframework_jni.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:system/lib/libmoviemaker-jni.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libphotoeditor_native.so:system/lib/libphotoeditor_native.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libcrashreporterer.so:system/lib/libcrashreporterer.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libcronet.so:system/lib/libcronet.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libfilterframework_jni.so:system/lib/libfilterframework_jni.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libmoviemaker-jni.so:system/lib/libmoviemaker-jni.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libphotoeditor_native.so:system/lib/libphotoeditor_native.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libwebp_android.so:system/lib/libwebp_android.so:google \
 #Velvet Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so:google \
