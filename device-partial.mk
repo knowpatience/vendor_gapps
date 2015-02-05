@@ -1,7 +1,6 @@
 
 # GApps dependencies
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/etc/g.prop:system/etc/g.prop:google \
     vendor/google/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml:google \
@@ -45,85 +44,85 @@ PRODUCT_COPY_FILES += \
 
 #ChromeBeta Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.so:system/lib/libchrome.so:google \
-   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.so:system/app/ChromeBeta/lib/arm/libchrome.so:google \
+   vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:google \
 #Drive Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/lib/libbitmap_parcel.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/lib/libdocscanner_image.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/lib/libfoxit.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/lib/librectifier.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/app/Drive/lib/arm/libbitmap_parcel.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/app/Drive/lib/arm/libdocscanner_image.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:ystem/app/Drive/lib/arm/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/app/Drive/lib/arm/libfoxit.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/app/Drive/lib/arm/librectifier.so:google \
 #EditorsDocs Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
-  vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libkix_ndk1.so:system/lib/libkix_ndk1.so:google \
-  vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
+   vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libdocsimageutils.so:system/app/EditorsDocs/lib/arm/libdocsimageutils.so:google \
+  vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libkix_ndk1.so:system/app/EditorsDocs/lib/arm/libkix_ndk1.so:google \
+  vendor/google/proprietary/system/app/EditorsDocs/lib/arm/libwebp_android.so:system/app/EditorsDocs/lib/arm/libwebp_android.so:google \
 #EditorsSheets Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
-   vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libritz_ndk1.so:system/lib/libritz_ndk1.so:google \
-  vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
+   vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libdocsimageutils.so:system/app/EditorsSheets/lib/arm/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libritz_ndk1.so:system/app/EditorsSheets/lib/arm/libritz_ndk1.so:google \
+  vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libwebp_android.so:ystem/app/EditorsSheets/lib/arm/libwebp_android.so:google \
 #EditorsSlides Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libdocsimageutils.so:system/lib/libdocsimageutils.so:google \
-   vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:system/lib/libpunch_ndk1.so:google \
-  vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
+   vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libdocsimageutils.so:system/app/EditorsSlides/lib/arm/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:system/app/EditorsSlides/lib/arm/libpunch_ndk1.so:google \
+  vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libwebp_android.so:system/app/EditorsSlides/lib/arm/libwebp_android.so:google \
 #GCam Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:system/lib/libgcam.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam_swig_jni.so:system/lib/libgcam_swig_jni.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_jpegutil.so:system/lib/libjni_jpegutil.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjpeg.so:system/lib/libjpeg.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/liblightcycle.so:system/lib/liblightcycle.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librefocus.so:system/lib/librefocus.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librsjni.so:system/lib/librsjni.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:system/lib/libRSSupport.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam_swig_jni.so:system/app/GoogleCamera/lib/armeabi-v7a/libgcam_swig_jni.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_jpegutil.so:system/app/GoogleCamera/lib/armeabi-v7a/libjni_jpegutil.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_tinyplanet.so:system/app/GoogleCamera/lib/armeabi-v7a/libjni_tinyplanet.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjpeg.so:system/app/GoogleCamera/lib/armeabi-v7a/libjpeg.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/liblightcycle.so:system/app/GoogleCamera/lib/armeabi-v7a/liblightcycle.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libnativehelper_compat_libc++.so:system/app/GoogleCamera/lib/armeabi-v7a/libnativehelper_compat_libc++.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librefocus.so:system/app/GoogleCamera/lib/armeabi-v7a/librefocus.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_f32.so:system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_f32.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_fast_f32.so:system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_fast_f32.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librsjni.so:system/app/GoogleCamera/lib/armeabi-v7a/librsjni.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:google \
 #PrebuiltGmsCore Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:system/lib/libAppDataSearch.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:system/lib/libconscrypt_gmscore_jni.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:system/lib/libgcastv2_base.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:system/lib/libgcastv2_support.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:system/lib/libgmscore.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:system/lib/libgms-ocrclient.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:system/lib/libjgcastservice.so:google \
-vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/lib/libsslwrapper_jni.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/lib/libWhisper.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:ssystem/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:stem/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:google \
+vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:google \
 #GTTS Libs
 PRODUCT_COPY_FILES +=\
     vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libpatts_engine_jni_api_ub.210303130.so:system/lib/libpatts_engine_jni_api_ub.210303130.so:google \
     vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libspeexwrapper_ub.210303130.so:system/lib/libspeexwrapper_ub.210303130.so:google \
 #Hangouts Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporter.so:system/lib/libcrashreporter.so:google \
-    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcronet.so:system/lib/libcronet.so:google \
-    vendor/google/proprietary/system/app/Hangouts/lib/arm/libframesequence.so:system/lib/libframesequence.so:google \
-    vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/lib/libpvideochat_jni.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporter.so:system/app/Hangouts/lib/arm/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcronet.so:system/app/Hangouts/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libframesequence.so:system/app/Hangouts/lib/arm/libframesequence.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/app/Hangouts/lib/arm/libvideochat_jni.so:google \
 #Inbox Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:system/lib/libcrashreporter.so:google \
-vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/lib/libindexeddb.so:google
+    vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:ystem/app/Inbox/lib/armeabi/libcrashreporter.so:google \
+vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/app/Inbox/lib/armeabi/libindexeddb.so:google
 #LatinImeGoogle
 #PRODUCT_COPY_FILES += \
 #    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle:google \
 #Maps Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Maps/lib/arm/libcrashreporterer.so:system/lib/libcrashreporterer.so:google \
-    vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/lib/libgmm-jni.so:google \
+    vendor/google/proprietary/system/app/Maps/lib/arm/libcrashreporterer.so:system/app/Maps/lib/arm/libcrashreporterer.so:google \
+    vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/app/Maps/lib/arm/libgmm-jni.so:google \
 #PlusOne Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/lib/libcrashreporterer.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcronet.so:system/lib/libcronet.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libfilterframework_jni.so:system/lib/libfilterframework_jni.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:system/lib/libmoviemaker-jni.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libphotoeditor_native.so:system/lib/libphotoeditor_native.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libwebp_android.so:system/lib/libwebp_android.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/app/PlusOne/lib/arm/libcrashreporterer.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcronet.so:system/app/PlusOne/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libfilterframework_jni.so:system/app/PlusOne/lib/arm/libfilterframework_jni.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:ystem/app/PlusOne/lib/arm/libmoviemaker-jni.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libphotoeditor_native.so:system/app/PlusOne/lib/arm/libphotoeditor_native.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libwebp_android.so:system/app/PlusOne/lib/arm/libwebp_android.so:google \
 #Velvet Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so:google \
@@ -132,15 +131,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so:google \
 #Videos Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Videos/lib/armeabi/libWVphoneAPI.so:system/lib/libcrashreporter.so:google 
+    vendor/google/proprietary/system/app/Videos/lib/armeabi/libWVphoneAPI.so:system/app/Videos/lib/armeabi/libWVphoneAPI.so:google 
 #Wallet Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/priv-app/Wallet/lib/armeabi/libgoogle-ocrclient.so:system/lib/libgoogle-ocrclient.so:google
+    vendor/google/proprietary/system/priv-app/Wallet/lib/armeabi/libgoogle-ocrclient.so:system/priv-app/Wallet/lib/armeabi/libgoogle-ocrclient.so:google
 #YouTube Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/YouTube/lib/arm/libcronet.so:system/lib/libcronet.so:google \
-    vendor/google/proprietary/system/app/YouTube/lib/arm/libfilterframework_jni.so:system/lib/libfilterframework_jni.so:google \
-    vendor/google/proprietary/system/app/YouTube/lib/arm/libm2ts_player.so:system/lib/libm2ts_player.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libcronet.so:system/app/YouTube/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libfilterframework_jni.so:system/app/YouTube/lib/arm/libfilterframework_jni.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libm2ts_player.so:system/app/YouTube/lib/arm/libm2ts_player.so:google \
 
 # System Apps
 PRODUCT_PACKAGES += \
