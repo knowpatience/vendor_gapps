@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/app/Drive/lib/arm/libbitmap_parcel.so:google \
    vendor/google/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/app/Drive/lib/arm/libdocscanner_image.so:google \
-   vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:ystem/app/Drive/lib/arm/libdocsimageutils.so:google \
+   vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:system/app/Drive/lib/arm/libdocsimageutils.so:google \
    vendor/google/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/app/Drive/lib/arm/libfoxit.so:google \
    vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/app/Drive/lib/arm/librectifier.so:google \
 #EditorsDocs Libs
@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libdocsimageutils.so:system/app/EditorsSheets/lib/arm/libdocsimageutils.so:google \
    vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libritz_ndk1.so:system/app/EditorsSheets/lib/arm/libritz_ndk1.so:google \
-  vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libwebp_android.so:ystem/app/EditorsSheets/lib/arm/libwebp_android.so:google \
+  vendor/google/proprietary/system/app/EditorsSheets/lib/arm/libwebp_android.so:system/app/EditorsSheets/lib/arm/libwebp_android.so:google \
 #EditorsSlides Libs
 PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libdocsimageutils.so:system/app/EditorsSlides/lib/arm/libdocsimageutils.so:google \
@@ -88,9 +88,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:ssystem/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:stem/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:google \
 vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:google \
@@ -106,7 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/app/Hangouts/lib/arm/libvideochat_jni.so:google \
 #Inbox Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:ystem/app/Inbox/lib/armeabi/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:system/app/Inbox/lib/armeabi/libcrashreporter.so:google \
 vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/app/Inbox/lib/armeabi/libindexeddb.so:google
 #LatinImeGoogle
 #PRODUCT_COPY_FILES += \
@@ -120,7 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/app/PlusOne/lib/arm/libcrashreporterer.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libcronet.so:system/app/PlusOne/lib/arm/libcronet.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libfilterframework_jni.so:system/app/PlusOne/lib/arm/libfilterframework_jni.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:ystem/app/PlusOne/lib/arm/libmoviemaker-jni.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:system/app/PlusOne/lib/arm/libmoviemaker-jni.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libphotoeditor_native.so:system/app/PlusOne/lib/arm/libphotoeditor_native.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libwebp_android.so:system/app/PlusOne/lib/arm/libwebp_android.so:google \
 #Velvet Libs
@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
     Maps \
     Music2 \
     Newsstand \
+    Photos \
     PlusOne \
     PrebuiltBugle \
     PrebuiltExchange3Google \
@@ -177,6 +178,7 @@ PRODUCT_PACKAGES += \
    CalendarProvider \
    PrebuiltGmsCore \
    GoogleBackupTransport \
+   GoogleContacts \
    GoogleDialer \
    GoogleFeedback \
    GoogleLoginService \
