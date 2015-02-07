@@ -70,18 +70,18 @@ PRODUCT_COPY_FILES += \
   vendor/google/proprietary/system/app/EditorsSlides/lib/arm/libwebp_android.so:system/app/EditorsSlides/lib/arm/libwebp_android.so:google \
 #GCam Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam_swig_jni.so:system/app/GoogleCamera/lib/armeabi-v7a/libgcam_swig_jni.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_jpegutil.so:system/app/GoogleCamera/lib/armeabi-v7a/libjni_jpegutil.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_tinyplanet.so:system/app/GoogleCamera/lib/armeabi-v7a/libjni_tinyplanet.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjpeg.so:system/app/GoogleCamera/lib/armeabi-v7a/libjpeg.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/liblightcycle.so:system/app/GoogleCamera/lib/armeabi-v7a/liblightcycle.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libnativehelper_compat_libc++.so:system/app/GoogleCamera/lib/armeabi-v7a/libnativehelper_compat_libc++.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librefocus.so:system/app/GoogleCamera/lib/armeabi-v7a/librefocus.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_f32.so:system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_f32.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_fast_f32.so:system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_fast_f32.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam.so:system/lib/libgcam.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libgcam_swig_jni.so:system/lib/libgcam_swig_jni.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_jpegutil.so:system/lib/libjni_jpegutil.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libjpeg.so:system/lib/libjpeg.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/liblightcycle.so:system/lib/liblightcycle.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librefocus.so:system/lib/librefocus.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so:google \
     vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/librsjni.so:system/app/GoogleCamera/lib/armeabi-v7a/librsjni.so:google \
-    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:system/lib/libRSSupport.so:google \
 #PrebuiltGmsCore Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:google \
