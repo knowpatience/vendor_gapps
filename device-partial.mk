@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
 #Inbox Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Inbox/lib/armeabi/libcrashreporter.so:system/app/Inbox/lib/armeabi/libcrashreporter.so:google \
-vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/app/Inbox/lib/armeabi/libindexeddb.so:google
+    vendor/google/proprietary/system/app/Inbox/lib/armeabi/libindexeddb.so:system/app/Inbox/lib/armeabi/libindexeddb.so:google \
 #LatinImeGoogle
 #PRODUCT_COPY_FILES += \
 #    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle:google \
