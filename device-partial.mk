@@ -178,7 +178,6 @@ PRODUCT_PACKAGES += \
    CalendarProvider \
    PrebuiltGmsCore \
    GoogleBackupTransport \
-   GoogleContacts \
    GoogleDialer \
    GoogleFeedback \
    GoogleLoginService \
