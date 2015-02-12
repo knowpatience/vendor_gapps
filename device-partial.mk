@@ -164,7 +164,6 @@ PRODUCT_PACKAGES += \
     Maps \
     Music2 \
     Newsstand \
-    Photos \
     PlusOne \
     PrebuiltBugle \
     PrebuiltExchange3Google \
