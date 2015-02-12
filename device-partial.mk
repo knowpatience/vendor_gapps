@@ -84,16 +84,16 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/armeabi-v7a/libRSSupport.so:system/lib/libRSSupport.so:google \
 #PrebuiltGmsCore Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libAppDataSearch.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libconscrypt_gmscore_jni.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libconscrypt_gmscore_jni.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgames_rtmp_jni.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgames_rtmp_jni.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgcastv2_base.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgcastv2_base.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgcastv2_support.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgcastv2_support.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgmscore.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgmscore.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgms-ocrclient.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libgms-ocrclient.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libjgcastservice.so:google \
-vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libsslwrapper_jni.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/armeabi-v7a/libWhisper.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:google \
+vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:google \
 #GTTS Libs
 PRODUCT_COPY_FILES +=\
     vendor/google/proprietary/system/app/GoogleTTS/lib/arm/libpatts_engine_jni_api_ub.210303130.so:system/lib/libpatts_engine_jni_api_ub.210303130.so:google \
