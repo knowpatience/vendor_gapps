@@ -117,12 +117,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/app/Maps/lib/arm/libgmm-jni.so:google \
 #PlusOne Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libcrashreporterer.so:system/app/PlusOne/lib/armeabi-v7a/libcrashreporterer.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libcronet.so:system/app/PlusOne/lib/armeabi-v7a/libcronet.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libfilterframework_jni.so:system/app/PlusOne/lib/armeabi-v7a/libfilterframework_jni.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libmoviemaker-jni.so:system/app/PlusOne/lib/armeabi-v7a/libmoviemaker-jni.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libphotoeditor_native.so:system/app/PlusOne/lib/armeabi-v7a/libphotoeditor_native.so:google \
-    vendor/google/proprietary/system/app/PlusOne/lib/armeabi-v7a/libwebp_android.so:system/app/PlusOne/lib/armeabi-v7a/libwebp_android.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/app/PlusOne/lib/arm/libcrashreporterer.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libcronet.so:system/app/PlusOne/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libfilterframework_jni.so:system/app/PlusOne/lib/arm/libfilterframework_jni.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libmoviemaker-jni.so:system/app/PlusOne/lib/arm/libmoviemaker-jni.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libphotoeditor_native.so:system/app/PlusOne/lib/arm/libphotoeditor_native.so:google \
+    vendor/google/proprietary/system/app/PlusOne/lib/arm/libwebp_android.so:system/app/PlusOne/lib/arm/libwebp_android.so:google \
 #Velvet Libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so:google \
