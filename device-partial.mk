@@ -159,7 +159,6 @@ PRODUCT_PACKAGES += \
     GoogleTTS \
     Hangouts \
     HangoutsDialer \
-    Inbox \
     Keep \
     Maps \
     Music2 \
