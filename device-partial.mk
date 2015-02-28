@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
 # System Apps
 PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
+    GoogleHome \
     PrebuiltGmail \
 
 # Priv-apps
@@ -48,6 +49,7 @@ PRODUCT_PACKAGES += \
     Phonesky \
     PrebuiltGmsCore \
     SetupWizard \
+    Velvet \
 
 
 
