@@ -3,6 +3,21 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.so:system/app/ChromeBeta/lib/arm/libchrome.so:google \
     vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:google \
 
+# Google Camera libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/app/GoogleCamera/lib/arm/libgcam.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libjni_jpegutil.so:system/app/GoogleCamera/lib/arm/libjni_jpegutil.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libjni_tinyplanet.so:system/app/GoogleCamera/lib/arm/libjni_tinyplanet.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libjpeg.so:system/app/GoogleCamera/lib/arm/libjpeg.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/liblightcycle.so:system/app/GoogleCamera/lib/arm/liblightcycle.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so:system/app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librefocus.so:system/app/GoogleCamera/lib/arm/librefocus.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librs.layered_filter_f32.so:system/app/GoogleCamera/lib/arm/librs.layered_filter_f32.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librs.layered_filter_fast_f32.so:system/app/GoogleCamera/lib/arm/librs.layered_filter_fast_f32.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/librsjni.so:system/app/GoogleCamera/lib/arm/librsjni.so:google \
+    vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libRSSupport.so:system/app/GoogleCamera/lib/arm/libRSSupport.so:google \
+
 # GApps framework
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar:google \
@@ -48,6 +63,7 @@ PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     ChromeBeta \
     GoogleCalendarSyncAdapter \
+    GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleHome \
     Hangouts \
