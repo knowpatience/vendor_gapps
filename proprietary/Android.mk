@@ -1,10 +1,31 @@
 LOCAL_PATH:=$(call my-dir)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := CalendarGooglePrebuilt
+LOCAL_SRC_FILES := system/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_OWNER := google
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleBackupTransport
 LOCAL_SRC_FILES := system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk
 LOCAL_MODULE_PATH := $(TARGET_OUT_APPS_PRIVILEGED)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_OWNER := google
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GoogleCalendarSyncAdapter
+LOCAL_SRC_FILES := system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS)
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_OWNER := google
 LOCAL_MODULE_TAGS := optional

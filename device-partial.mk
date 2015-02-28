@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
 
 # System Apps
 PRODUCT_PACKAGES += \
+    CalendarGooglePrebuilt \
+    GoogleCalendarSyncAdapter \
     GoogleContactsSyncAdapter \
     GoogleHome \
     Hangouts \
