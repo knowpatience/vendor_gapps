@@ -1,9 +1,10 @@
 LOCAL_PATH:=$(call my-dir)
 
+
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleContactsSyncAdapter
-LOCAL_SRC_FILES := system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk
-LOCAL_MODULE_PATH := $(TARGET_OUT_APPS)
+LOCAL_MODULE := GoogleBackupTransport
+LOCAL_SRC_FILES := system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS_PRIVILEGED)
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_OWNER := google
 LOCAL_MODULE_TAGS := optional
@@ -12,9 +13,9 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleBackupTransport
-LOCAL_SRC_FILES := system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk
-LOCAL_MODULE_PATH := $(TARGET_OUT_APPS_PRIVILEGED)
+LOCAL_MODULE := GoogleContactsSyncAdapter
+LOCAL_SRC_FILES := system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS)
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_OWNER := google
 LOCAL_MODULE_TAGS := optional
@@ -71,6 +72,17 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := Phonesky
 LOCAL_SRC_FILES := system/priv-app/Phonesky/Phonesky.apk
 LOCAL_MODULE_PATH := $(TARGET_OUT_APPS_PRIVILEGED)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_OWNER := google
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := PrebuiltGmail
+LOCAL_SRC_FILES := system/app/PrebuiltGmail/PrebuiltGmail.apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS)
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_OWNER := google
 LOCAL_MODULE_TAGS := optional

@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
 # System Apps
 PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
+    PrebuiltGmail \
 
 # Priv-apps
 PRODUCT_PACKAGES += \
