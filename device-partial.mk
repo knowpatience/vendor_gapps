@@ -1,7 +1,7 @@
 
 # GApps framework
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/framework/com.google.android.camera2.jar: :google \
+    vendor/google/proprietary/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar:google \
     vendor/google/proprietary/system/framework/com.google.android.dialer.support.jar:system/framework/com.google.android.dialer.support.jar:google \
     vendor/google/proprietary/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar:google \
     vendor/google/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar:google \
@@ -18,6 +18,13 @@ PRODUCT_COPY_FILES += \
 # GApps permissions
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
+
+# Hangouts libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporter.so:system/app/Hangouts/lib/arm/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcronet.so:system/app/Hangouts/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libframesequence.so:system/app/Hangouts/lib/arm/libframesequence.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/app/Hangouts/lib/arm/libvideochat_jni.so:google \
 
 # PrebuiltGmsCore libs
 PRODUCT_COPY_FILES += \
@@ -36,6 +43,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     GoogleHome \
+    Hangouts \
     PrebuiltGmail \
 
 # Priv-apps
