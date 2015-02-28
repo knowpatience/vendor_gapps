@@ -1,3 +1,7 @@
+# ChromeBeta libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.so:system/app/ChromeBeta/lib/arm/libchrome.so:google \
+    vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:google \
 
 # GApps framework
 PRODUCT_COPY_FILES += \
