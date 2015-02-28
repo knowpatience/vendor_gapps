@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 # System Apps
 PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
+    ChromeBeta \
     GoogleCalendarSyncAdapter \
     GoogleContactsSyncAdapter \
     GoogleHome \
