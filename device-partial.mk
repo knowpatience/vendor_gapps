@@ -82,6 +82,7 @@ PRODUCT_PACKAGES += \
     Hangouts \
     PlusOne \
     PrebuiltGmail \
+    PrebuiltKeep \
 
 # Priv-apps
 PRODUCT_PACKAGES += \
