@@ -45,6 +45,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libframesequence.so:system/app/Hangouts/lib/arm/libframesequence.so:google \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/app/Hangouts/lib/arm/libvideochat_jni.so:google \
 
+# Maps
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/Maps/lib/arm/libcrashreporterer.so:system/app/Maps/lib/arm/libcrashreporterer.so:google \
+    vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/app/Maps/lib/arm/libgmm-jni.so:google \
+
 # PlusOne libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/app/PlusOne/lib/arm/libcrashreporterer.so:google \
@@ -69,7 +74,7 @@ PRODUCT_COPY_FILES += \
 
 # Wallet libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:google \ 
+    vendor/google/proprietary/system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:google \
 
 # System Apps
 PRODUCT_PACKAGES += \
@@ -80,6 +85,7 @@ PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     GoogleHome \
     Hangouts \
+    Maps \
     Music2 \
     PlusOne \
     PrebuiltGmail \
