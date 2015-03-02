@@ -80,6 +80,7 @@ PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     GoogleHome \
     Hangouts \
+    Music2 \
     PlusOne \
     PrebuiltGmail \
     PrebuiltKeep \
