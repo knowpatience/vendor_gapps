@@ -67,6 +67,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:google \
 
+# Wallet libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:google \ 
+
 # System Apps
 PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
@@ -91,6 +95,4 @@ PRODUCT_PACKAGES += \
     PrebuiltGmsCore \
     SetupWizard \
     Velvet \
-
-
-
+    Wallet \
