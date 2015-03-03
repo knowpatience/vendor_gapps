@@ -72,6 +72,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so:google \
 
+# Velvet libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libcronet.so:system/priv-app/Velvet/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:google \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:google \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:google \
+
 # Wallet libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:google \
