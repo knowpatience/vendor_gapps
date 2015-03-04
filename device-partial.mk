@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
     GoogleCalendarSyncAdapter \
     GoogleCamera \
     GoogleContactsSyncAdapter \
+    GoogleDialer \
     GoogleHome \
     Hangouts \
     Maps \
