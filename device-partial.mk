@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
 
 # Hangouts libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporter.so:system/app/Hangouts/lib/arm/libcrashreporter.so:google \
+    vendor/google/proprietary/system/app/Hangouts/lib/arm/libcrashreporterer.so:system/app/Hangouts/lib/arm/libcrashreporterer.so:google \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libcronet.so:system/app/Hangouts/lib/arm/libcronet.so:google \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libframesequence.so:system/app/Hangouts/lib/arm/libframesequence.so:google \
     vendor/google/proprietary/system/app/Hangouts/lib/arm/libvideochat_jni.so:system/app/Hangouts/lib/arm/libvideochat_jni.so:google \
