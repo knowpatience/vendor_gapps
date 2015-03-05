@@ -3,6 +3,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchrome.so:system/app/ChromeBeta/lib/arm/libchrome.so:google \
     vendor/google/proprietary/system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:system/app/ChromeBeta/lib/arm/libchromium_android_linker.so:google \
 
+# Drive libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/app/Drive/lib/arm/libbitmap_parcel.so:google \
+    vendor/google/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/app/Drive/lib/arm/libdocscanner_image.so:google \
+    vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:system/app/Drive/lib/arm/libdocsimageutils.so:google \
+    vendor/google/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/app/Drive/lib/arm/libfoxit.so:google \
+    vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/app/Drive/lib/arm/librectifier.so:google \
+    vendor/google/proprietary/system/app/Drive/lib/arm/libwebp_android.so:system/app/Drive/lib/arm/libwebp_android.so:google \
+
 # Google Camera libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/GoogleCamera/lib/arm/libgcam.so:system/app/GoogleCamera/lib/arm/libgcam.so:google \
