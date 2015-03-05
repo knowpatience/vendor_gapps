@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     ChromeBeta \
+    Drive \
     GoogleCalendarSyncAdapter \
     GoogleCamera \
     GoogleContactsSyncAdapter \
