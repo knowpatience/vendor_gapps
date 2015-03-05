@@ -101,7 +101,6 @@ PRODUCT_PACKAGES += \
     GoogleCalendarSyncAdapter \
     GoogleCamera \
     GoogleContactsSyncAdapter \
-    GoogleDialer \
     GoogleHome \
     Hangouts \
     Maps \
@@ -113,6 +112,7 @@ PRODUCT_PACKAGES += \
 # Priv-apps
 PRODUCT_PACKAGES += \
     GoogleBackupTransport \
+    GoogleDialer \
     GoogleFeedback \
     GoogleLoginService \
     GoogleOneTimeInitializer \
