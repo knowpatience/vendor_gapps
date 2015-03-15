@@ -68,6 +68,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libphotoeditor_native.so:system/app/PlusOne/lib/arm/libphotoeditor_native.so:google \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libwebp_android.so:system/app/PlusOne/lib/arm/libwebp_android.so:google \
 
+# PrebuiltBugle libs
+PRODUCT_COPY_FILE += \
+     vendor/google/proprietary/system/app/PrebuiltBugle/lib/arm/libframesequence.so:system/app/PrebuiltBugle/lib/arm/libframesequence.so:google \
+     vendor/google/proprietary/system/app/PrebuiltBugle/lib/arm/libgiftranscode.so.so:system/app/PrebuiltBugle/lib/arm/libgiftranscode.so:google \
+
 # PrebuiltGmsCore libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:google \
@@ -106,6 +111,7 @@ PRODUCT_PACKAGES += \
     Maps \
     Music2 \
     PlusOne \
+    PrebuiltBugle \
     PrebuiltGmail \
     PrebuiltKeep \
 
