@@ -98,6 +98,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:google \
 
+# YouTube libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libcronet.so:system/app/YouTube/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libfilterframework_jni.so:system/app/YouTube/lib/arm/libfilterframework_jni.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libm2ts_player.so:system/app/YouTube/lib/arm/libm2ts_player.so:google \
+
 # System Apps
 PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
@@ -114,6 +120,7 @@ PRODUCT_PACKAGES += \
     PrebuiltBugle \
     PrebuiltGmail \
     PrebuiltKeep \
+    YouTube \
 
 # Priv-apps
 PRODUCT_PACKAGES += \
