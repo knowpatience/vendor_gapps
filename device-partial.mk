@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
 
 # Wallet libs
 PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/priv-app/Wallet/lib/arm/libbarhopper.so:system/priv-app/Wallet/lib/arm/libbarhopper.so:google \
     vendor/google/proprietary/system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:system/priv-app/Wallet/lib/arm/libgoogle-ocrclient.so:google \
 
 # YouTube libs
