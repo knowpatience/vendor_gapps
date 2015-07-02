@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
 # YouTube libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libcronet.so:system/app/YouTube/lib/arm/libcronet.so:google \
-    vendor/google/proprietary/system/app/YouTube/lib/arm/libcurl.so:system/app/YouTube/lib/arm/libcurl.so:google \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libfilterframework_jni.so:system/app/YouTube/lib/arm/libfilterframework_jni.so:google \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libluajit.so:system/app/YouTube/lib/arm/libluajit.so:google \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libm2ts_player.so:system/app/YouTube/lib/arm/libm2ts_player.so:google \
