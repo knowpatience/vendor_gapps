@@ -9,7 +9,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Drive/lib/arm/libbitmap_parcel.so:system/app/Drive/lib/arm/libbitmap_parcel.so:google \
     vendor/google/proprietary/system/app/Drive/lib/arm/libdocscanner_image.so:system/app/Drive/lib/arm/libdocscanner_image.so:google \
     vendor/google/proprietary/system/app/Drive/lib/arm/libdocsimageutils.so:system/app/Drive/lib/arm/libdocsimageutils.so:google \
+    vendor/google/proprietary/system/app/Drive/lib/arm/libfileutils.so:system/app/Drive/lib/arm/libfileutils.so:google \
     vendor/google/proprietary/system/app/Drive/lib/arm/libfoxit.so:system/app/Drive/lib/arm/libfoxit.so:google \
+    vendor/google/proprietary/system/app/Drive/lib/arm/librawpixeldata_native.so:system/app/Drive/lib/arm/librawpixeldata_native.so:google \
     vendor/google/proprietary/system/app/Drive/lib/arm/librectifier.so:system/app/Drive/lib/arm/librectifier.so:google \
     vendor/google/proprietary/system/app/Drive/lib/arm/libwebp_android.so:system/app/Drive/lib/arm/libwebp_android.so:google \
 
