@@ -109,6 +109,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libm2ts_player.so:system/app/YouTube/lib/arm/libm2ts_player.so:google \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libmoxie.so:system/app/YouTube/lib/arm/libmoxie.so:google \
     vendor/google/proprietary/system/app/YouTube/lib/arm/libmoxieclient.so:system/app/YouTube/lib/arm/libmoxieclient.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libvpx.so:system/app/YouTube/lib/arm/libvpx.so:google \
+    vendor/google/proprietary/system/app/YouTube/lib/arm/libvpxJNI.so:system/app/YouTube/lib/arm/libvpxJNI.so:google \
 
 # System Apps
 PRODUCT_PACKAGES += \
