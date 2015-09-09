@@ -61,6 +61,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/Maps/lib/arm/libcrashreporterer.so:system/app/Maps/lib/arm/libcrashreporterer.so:google \
     vendor/google/proprietary/system/app/Maps/lib/arm/libgmm-jni.so:system/app/Maps/lib/arm/libgmm-jni.so:google \
 
+# Photos
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/Photos/lib/arm/libconsumerphotoeditor_native.so:system/app/Photos/lib/arm/ibconsumerphotoeditor_native.so:google \
+    vendor/google/proprietary/system/app/Photos/lib/arm/libcrashreporterer.so:system/app/Photos/lib/arm/libcrashreporterer.so:google \
+    vendor/google/proprietary/system/app/Photos/lib/arm/libcronet.so:system/app/Photos/lib/arm/libcronet.so:google \
+    vendor/google/proprietary/system/app/Photos/lib/arm/libfilterframework_jni.so:system/app/Photos/lib/arm/libfilterframework_jni.so:google \
+    vendor/google/proprietary/system/app/Photos/lib/arm/libframesequence.so:system/app/Photos/lib/arm/libframesequence.so:google \
+    vendor/google/proprietary/system/app/Photos/lib/arm/libmoviemaker-jni.so:system/app/Photos/lib/arm/libmoviemaker-jni.so:google \
+
 # PlusOne libs
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/app/PlusOne/lib/arm/libcrashreporterer.so:system/app/PlusOne/lib/arm/libcrashreporterer.so:google \
@@ -124,6 +133,7 @@ PRODUCT_PACKAGES += \
     Hangouts \
     Maps \
     Music2 \
+    Photos \
     PlusOne \
     PrebuiltBugle \
     PrebuiltGmail \
