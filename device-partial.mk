@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so:google \
-    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libleveldbjni.so:proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libleveldbjni.so:google \
+    vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libleveldbjni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libleveldbjni.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libNearbyApp.so:system/priv-app/PrebuiltGmsCore/lib/arm/libNearbyApp.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so:google \
     vendor/google/proprietary/system/priv-app/PrebuiltGmsCore/lib/arm/libwearable-selector.so:system/priv-app/PrebuiltGmsCore/lib/arm/libwearable-selector.so \
@@ -126,7 +126,6 @@ PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     ChromeBeta \
     Drive \
-    GoogleCalendarSyncAdapter \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleHome \
