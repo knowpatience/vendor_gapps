@@ -14,7 +14,7 @@
 PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml:google \
     vendor/google/proprietary/system/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml:google \
-    vendor/google/proprietary/system/etc/updatecmds/google_generic_update.txt.xml:system/etc/updatecmds/google_generic_update.txt.xml:google \
+    vendor/google/proprietary/system/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml:google \
     vendor/google/proprietary/system/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml:google \
@@ -25,15 +25,73 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar:google \
     vendor/google/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar:google \
     vendor/google/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar:google \
+    vendor/google/proprietary/system/lib/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 
+# Chrome Libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
+
+#GoogleSearch Libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libcronet.so:system/lib/libcronet.so:google \
+    vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libgoogle_speech_jni.so:system/lib/libgoogle_speech_jni.so:google \
+    vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libgoogle_speech_micro_jni.so:system/lib/libgoogle_speech_micro_jni.so:google \
+    vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/liboffline_actions_jni.so:system/lib/liboffline_actions_jni.so:google \
+
+#FaceLock Libs
+PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/app/FaceLock/lib/arm/libfacelock_jni.so:system/app/FaceLock/lib/arm/libfacelock.jni.so:google \
 
 # System Apps
 PRODUCT_PACKAGES += \
+    Books \
+    CalculatorGoogle \
+    CalendarGooglePrebuilt \
+    Chrome \
+    CloudPrint2 \
+    Drive \
+    EditorsDocsStub \
+    EditorsSheetsStub \
+    EditorsSlidesStub \
+    FaceLock \
+    FitnessPrebuilt \
+    GoogleCamera \
+    GoogleContactsSyncAdapter \
+    GoogleDeskClock \
+    GoogleEars \
+    GoogleHindiIME \
+    GoogleHome \
+    GooglePinyinIME \
+    GoogleTTS \
+    Hangouts \
+    LatinImeGoogle \
+    Maps \
+    Music2 \
+    Photos \
+    PlayGames \
+    PlusOne \
+    PrebuiltBugleStub \
+    PrebuiltExchange3Google \
+    PrebuiltGmail \
+    PrebuiltKeepStub \
+    PrebuiltNewsWeather \
+    Videos \
+    Wallet \
+    WebViewGoogle \
+    YouTube \
 
 # Priv-apps
 PRODUCT_PACKAGES += \
+    GCS \
+    GoogleBackupTransport \
+    GoogleContacts \
+    GoogleDialer \
     GoogleLoginService \
     GooglePlayServices \
     GooglePlayStore \
+    GoogleSearch \
     GoogleServicesFramework \
+    SetupWizard \
+    TagGoogle \
+
 
