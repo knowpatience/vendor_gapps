@@ -27,9 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar:google \
     vendor/google/proprietary/system/lib/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
 
-# Chrome Libs
-PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
+#Chrome Libs
+#PRODUCT_COPY_FILES += \
+#    vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
 
 #GoogleSearch Libs
 PRODUCT_COPY_FILES += \
@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/liboffline_actions_jni.so:system/lib/liboffline_actions_jni.so:google \
 
 #FaceLock Libs
-PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/app/FaceLock/lib/arm/libfacelock_jni.so:system/app/FaceLock/lib/arm/libfacelock.jni.so:google \
+#PRODUCT_COPY_FILES += \
+#    vendor/google/proprietary/system/app/FaceLock/lib/arm/libfacelock_jni.so:system/app/FaceLock/lib/arm/libfacelock.jni.so:google \
 
 # System Apps
 PRODUCT_PACKAGES += \
