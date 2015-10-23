@@ -26,7 +26,18 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar:google \
    vendor/google/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar:google \
    vendor/google/proprietary/system/lib/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
-
+   vendor/google/proprietary/system/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so:google \
+   vendor/google/proprietary/system/lib/libfilterpack_facedetect.so:system/lib/libffilterpack_facedetect.so:google \
+   vendor/google/proprietary/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so:google \
+   vendor/google/proprietary/system/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so:google \
+   vendor/google/proprietary/system/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:google \
+   vendor/google/proprietary/system/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so:google \
+      vendor/google/proprietary/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:google \
+   vendor/google/proprietary/system/lib/libmmcamera_mt9m114b.so:system/lib/libmmcamera_mt9m114b.so:google \
+   vendor/google/proprietary/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:google \
+   vendor/google/proprietary/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:google \
+   vendor/google/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so:google \
+   
 #Chrome Libs
 #PRODUCT_COPY_FILES += \
 #   vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
