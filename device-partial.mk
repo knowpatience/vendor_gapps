@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so:google \
    vendor/google/proprietary/system/lib/libfilterpack_facedetect.so:system/lib/libffilterpack_facedetect.so:google \
    vendor/google/proprietary/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so:google \
+   vendor/google/proprietary/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so:google \
    vendor/google/proprietary/system/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so:google \
    vendor/google/proprietary/system/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:google \
    vendor/google/proprietary/system/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so:google \
@@ -39,31 +40,31 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so:google \
    
 #Chrome Libs
-#PRODUCT_COPY_FILES += \
-#   vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
+PRODUCT_COPY_FILES += \
+   vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
 
 # Google Play Services Libs
-PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libAppDataSearch.so:system/priv-app/GooglePlayServices/lib/arm/libAppDataSearch.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libconscrypt_gmscore_jni.so:system/priv-app/GooglePlayServices/lib/arm/libconscrypt_gmscore_jni.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libdirect-audio.so:system/priv-app/GooglePlayServices/lib/arm/libdirect-audio.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgcastv2_base.so:system/priv-app/GooglePlayServices/lib/arm/libgcastv2_base.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgcastv2_support.so:system/priv-app/GooglePlayServices/lib/arm/libgcastv2_support.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgmscore.so:system/priv-app/GooglePlayServices/lib/arm/libgmscore.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgms-ocrclient.so:system/priv-app/GooglePlayServices/lib/arm/libgms-ocrclient.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libjgcastservice.so:system/priv-app/GooglePlayServices/lib/arm/libjgcastservice.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libleveldbjni.so:system/priv-app/GooglePlayServices/lib/arm/libleveldbjni.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libNearbyApp.so:system/priv-app/GooglePlayServices/lib/arm/libNearbyApp.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libsslwrapper_jni.so:system/priv-app/GooglePlayServices/lib/arm/libsslwrapper_jni.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libwearable-selector.so:system/priv-app/GooglePlayServices/lib/arm/libwearable-selector.so:google \
-   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libWhisper.so:system/priv-app/GooglePlayServices/lib/arm/libWhisper.so:google \
+#PRODUCT_COPY_FILES += \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libAppDataSearch.so:system/priv-app/GooglePlayServices/lib/arm/libAppDataSearch.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libconscrypt_gmscore_jni.so:system/priv-app/GooglePlayServices/lib/arm/libconscrypt_gmscore_jni.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libdirect-audio.so:system/priv-app/GooglePlayServices/lib/arm/libdirect-audio.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgcastv2_base.so:system/priv-app/GooglePlayServices/lib/arm/libgcastv2_base.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgcastv2_support.so:system/priv-app/GooglePlayServices/lib/arm/libgcastv2_support.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgmscore.so:system/priv-app/GooglePlayServices/lib/arm/libgmscore.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libgms-ocrclient.so:system/priv-app/GooglePlayServices/lib/arm/libgms-ocrclient.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libjgcastservice.so:system/priv-app/GooglePlayServices/lib/arm/libjgcastservice.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libleveldbjni.so:system/priv-app/GooglePlayServices/lib/arm/libleveldbjni.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libNearbyApp.so:system/priv-app/GooglePlayServices/lib/arm/libNearbyApp.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libsslwrapper_jni.so:system/priv-app/GooglePlayServices/lib/arm/libsslwrapper_jni.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libwearable-selector.so:system/priv-app/GooglePlayServices/lib/arm/libwearable-selector.so:google \
+#   vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/arm/libWhisper.so:system/priv-app/GooglePlayServices/lib/arm/libWhisper.so:google \
 
 # GoogleSearch Libs
 PRODUCT_COPY_FILES += \
-   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libcronet.so:system/lib/libcronet.so:google \
-   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libgoogle_speech_jni.so:system/lib/libgoogle_speech_jni.so:google \
-   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libgoogle_speech_micro_jni.so:system/lib/libgoogle_speech_micro_jni.so:google \
-   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/liboffline_actions_jni.so:system/lib/liboffline_actions_jni.so:google \
+#   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libcronet.so:system/lib/libcronet.so:google \
+#   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libgoogle_speech_jni.so:system/lib/libgoogle_speech_jni.so:google \
+#   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/libgoogle_speech_micro_jni.so:system/lib/libgoogle_speech_micro_jni.so:google \
+#   vendor/google/proprietary/system/priv-app/GoogleSearch/lib/arm/liboffline_actions_jni.so:system/lib/liboffline_actions_jni.so:google \
 
 #FaceLock Libs
 #PRODUCT_COPY_FILES += \
