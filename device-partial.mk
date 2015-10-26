@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/lib/libchromium_android_linker.so:system/lib/libchromium_android_linker.so:google \
    vendor/google/proprietary/system/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so:google \
    vendor/google/proprietary/system/lib/libfilterpack_facedetect.so:system/lib/libffilterpack_facedetect.so:google \
-   vendor/google/proprietary/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so:google \
+   vendor/google/proprietary/system/lib/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so:google \
    vendor/google/proprietary/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so:google \
    vendor/google/proprietary/system/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so:google \
    vendor/google/proprietary/system/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:google \
@@ -114,7 +114,9 @@ PRODUCT_PACKAGES += \
    GoogleBackupTransport \
    GoogleContacts \
    GoogleDialer \
+   GoogleFeedback \
    GoogleLoginService \
+   GoogleOneTimeInitializer \
    GooglePlayServices \
    GooglePlayStore \
    GoogleSearch \
