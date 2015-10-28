@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
    vendor/google/proprietary/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:google \
    vendor/google/proprietary/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:google \
    vendor/google/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so:google \
+   vendor/google/proprietary/system/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so:google \
+   vendor/google/proprietary/system/lib/libspeexwrapper.so:system/lib/libspeexswrapper.so:google \
    
 #Chrome Libs
 PRODUCT_COPY_FILES += \
@@ -103,6 +105,7 @@ PRODUCT_PACKAGES += \
    PrebuiltGmail \
    PrebuiltKeepStub \
    PrebuiltNewsWeather \
+   talkback \
    Videos \
    Wallet \
    WebViewGoogle \
