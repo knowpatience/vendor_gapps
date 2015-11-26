@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:google \
     vendor/google/proprietary/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:google \
     vendor/google/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so:google \
-    vendor/google/proprietary/system/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so:google \
-    vendor/google/proprietary/system/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so:google \
+    vendor/google/proprietary/system/lib/libpatts_engine_jni_api_ub.210307120.so:system/lib/libpatts_engine_jni_api_ub.210307120.so:google \
+    vendor/google/proprietary/system/lib/libspeexwrapper_ub.210307120.so:system/lib/libspeexwrapper_ub.210307120.so:google \
     vendor/google/proprietary/system/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so:google \
     vendor/google/proprietary/system/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so:google \
     vendor/google/proprietary/system/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst:google\
@@ -95,9 +95,11 @@ PRODUCT_COPY_FILES += \
 
 # Velvet Libs
 PRODUCT_COPY_FILES += \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libcrashreporter.so:system/priv-app/Velvet/lib/arm/libcrashreporter.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libcronet.so:system/priv-app/Velvet/lib/arm/libcronet.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:google \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/liboffline_actions_jni.so:system/priv-app/Velvet/lib/arm/libofflineactions_jni.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:google \
 
 # FaceLock Libs
@@ -115,7 +117,6 @@ PRODUCT_COPY_FILES += \
 
 # System Apps
 PRODUCT_PACKAGES += \
-    Books \
     CalculatorGoogle \
     CalendarGooglePrebuilt \
     ChromeBeta \
@@ -131,22 +132,18 @@ PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     GoogleDeskClock \
     GoogleEars \
-    GoogleHindiIME \
     GoogleHome \
-    GooglePinyinIME \
     GoogleTTS \
     Hangouts \
     LatinImeGoogle \
     Maps \
     Music2 \
     Photos \
-    PlayGames \
     PlusOne \
-    PrebuiltBugleStub \
+    PrebuiltBugle \
     PrebuiltExchange3Google \
     PrebuiltGmail \
     PrebuiltKeepStub \
-    PrebuiltNewsWeather \
     talkback \
     Videos \
     Wallet \
