@@ -72,48 +72,19 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/usr/srec/en-US/phone_state_map:system/usr/srec/en-US/phone_state_map:google \
     vendor/google/proprietary/system/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm:google \
     vendor/google/proprietary/system/usr/srec/en-US/wordlist:system/usr/srec/en-US/wordlist:google \
-    
-#ChromeBeta Libs
-#PRODUCT_COPY_FILES += \
-#    vendor/google/proprietary/system/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
 
-# Google Play Services Libs
-#PRODUCT_COPY_FILES += \
-##    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libAppDataSearch.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libAppDataSearch.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libconscrypt_gmscore_jni.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libconscrypt_gmscore_jni.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libdirect-audio.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libdirect-audio.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgcastv2_base.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgcastv2_base.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgcastv2_support.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgcastv2_support.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgmscore.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgmscore.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgms-ocrclient.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libgms-ocrclient.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libjgcastservice.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libjgcastservice.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libleveldbjni.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libleveldbjni.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libNearbyApp.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libNearbyApp.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libsslwrapper_jni.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libsslwrapper_jni.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libwearable-selector.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libwearable-selector.so:google \
-#    vendor/google/proprietary/system/priv-app/GooglePlayServices/lib/armeabi-v7a/libWhisper.so:system/priv-app/GooglePlayServices/lib/armeabi-v7a/libWhisper.so:google \
 
 # Velvet Libs
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libcrashreporter.so:system/priv-app/Velvet/lib/arm/libcrashreporter.so:google \
+    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libnativecrashreporter.so:system/priv-app/Velvet/lib/arm/libnativecrashreporter.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libcronet.so:system/priv-app/Velvet/lib/arm/libcronet.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:google \
     vendor/google/proprietary/system/priv-app/Velvet/lib/arm/liboffline_actions_jni.so:system/priv-app/Velvet/lib/arm/libofflineactions_jni.so:google \
-    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so:google \
 
-# FaceLock Libs
-#PRODUCT_COPY_FILES += \
-#    vendor/google/proprietary/system/app/FaceLock/lib/arm/libfacelock_jni.so:system/app/FaceLock/lib/arm/libfacelock_jni.so:google \
-
-# Google Keyboard
-#PRODUCT_COPY_FILES += \
-#    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_keyboarddecoder.so:system/app/LatinImeGoogle/lib/arm/libjni_keyboarddecoder.so:google \
-#    vendor/google/proprietary/system/app/LatinImeGoogle/lib/arm/libjni_latinimegoogle.so:system/app/LatinImeGoogle/lib/arm/libjni_latinimegoogle.so:google \
-
-# Add Gapps Symlinks
+# Add Nexus bootanimation 
 PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/etc/init.d/92-gapps_linkage.sh:system/etc/init.d/92-gapps_linkage.sh \
+      vendor/google/proprietary/system/media/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
 
 # System Apps
 PRODUCT_PACKAGES += \
@@ -140,7 +111,7 @@ PRODUCT_PACKAGES += \
     Music2 \
     Photos \
     PlusOne \
-    PrebuiltBugle \
+    PrebuiltBugleStub \
     PrebuiltExchange3Google \
     PrebuiltGmail \
     PrebuiltKeepStub \
@@ -155,6 +126,8 @@ PRODUCT_PACKAGES += \
     AndroidForWork \
     CellBroadcastReceiver \
     GCS \
+    GoogleContacts \
+    GoogleDialer \
     GoogleBackupTransport \
     GoogleFeedback \
     GoogleLoginService \
@@ -167,5 +140,4 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     SetupWizard \
     TagGoogle \
-
 
