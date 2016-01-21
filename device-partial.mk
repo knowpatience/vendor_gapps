@@ -39,11 +39,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:google \
     vendor/google/proprietary/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:google \
     vendor/google/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so:google \
-    vendor/google/proprietary/system/lib/libpatts_engine_jni_api_ub.210307120.so:system/lib/libpatts_engine_jni_api_ub.210307120.so:google \
-    vendor/google/proprietary/system/lib/libspeexwrapper_ub.210307120.so:system/lib/libspeexwrapper_ub.210307120.so:google \
+    vendor/google/proprietary/system/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so:google \
+    vendor/google/proprietary/system/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so:google \
     vendor/google/proprietary/system/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so:google \
     vendor/google/proprietary/system/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so:google \
-    vendor/google/proprietary/system/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst:google\
+    vendor/google/proprietary/system/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst:google \
     vendor/google/proprietary/system/usr/srec/en-US/clg:system/usr/srec/en-US/clg:google\
     vendor/google/proprietary/system/usr/srec/en-US/commands.abnf:system/usr/srec/en-US/commands.abnf:google\
     vendor/google/proprietary/system/usr/srec/en-US/compile_grammar.config:system/usr/srec/en-US/compile_grammar.config:google\
@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/usr/srec/en-US/phone_state_map:system/usr/srec/en-US/phone_state_map:google \
     vendor/google/proprietary/system/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm:google \
     vendor/google/proprietary/system/usr/srec/en-US/wordlist:system/usr/srec/en-US/wordlist:google \
-
 
 # Velvet Libs
 PRODUCT_COPY_FILES += \
