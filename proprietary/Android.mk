@@ -24,7 +24,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Calendar
-# 5.3.1-109151569-release
+# 5.3.3-113058720-release
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalendarGooglePrebuilt
@@ -39,7 +39,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Chrome Beta
-# v. 48.0.2564.79
+# v. 48.0.2564.95
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ChromeBeta
@@ -77,6 +77,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
+
+# Google Drive
+# v. 2.3.544.17.35
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Drive
@@ -362,7 +365,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google App
-# v. 5.7.14.19.arm
+# v. 5.8.50.16.arm
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Velvet
@@ -400,7 +403,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Hangouts
-# v. 6.1.109448852 (480dpi)
+# v. 7.0.113181153 (480dpi)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Hangouts
 LOCAL_SRC_FILES := system/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
@@ -629,7 +632,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # YouTube
-# v. 11.01.53
+# v. 11.01.55
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YouTube
