@@ -39,7 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:google \
     vendor/google/proprietary/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:google \
     vendor/google/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so:google \
-    vendor/google/proprietary/system/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so:google \
+    vendor/google/proprietary/system/lib/libpatts_engine_jni_api_ub.so:system/lib/libpatts_engine_jni_api_ub.so:google \
+    vendor/google/proprietary/system/lib/libpatts_engine_jni_api_neon_ub.so:system/lib/libpatts_engine_jni_api_neon_ub.so:google \
     vendor/google/proprietary/system/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so:google \
     vendor/google/proprietary/system/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so:google \
     vendor/google/proprietary/system/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so:google \
