@@ -74,14 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/proprietary/system/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm:google \
     vendor/google/proprietary/system/usr/srec/en-US/wordlist:system/usr/srec/en-US/wordlist:google \
 
-# Velvet Libs
-PRODUCT_COPY_FILES += \
-    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libnativecrashreporter.so:system/priv-app/Velvet/lib/arm/libnativecrashreporter.so:google \
-    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libcronet.so:system/priv-app/Velvet/lib/arm/libcronet.so:google \
-    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_jni.so:google \
-    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_speech_micro_jni.so:google \
-    vendor/google/proprietary/system/priv-app/Velvet/lib/arm/liboffline_actions_jni.so:system/priv-app/Velvet/lib/arm/libofflineactions_jni.so:google \
-
 # Add Nexus bootanimation 
 PRODUCT_COPY_FILES += \
       vendor/google/proprietary/system/media/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
