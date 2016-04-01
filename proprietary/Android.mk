@@ -39,7 +39,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Chrome Beta
-# v. _50.0.2661.35
+# v. 50.0.2661.57
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ChromeBeta
@@ -79,7 +79,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Drive
-# v. 2.3.631.13.35
+# v. 2.3.631.15.35 (arm) (480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Drive
@@ -343,7 +343,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Play Services
-# v. 8.7.02 (2624717-438)
+# v. 8.7.03 (2645110-438)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltGmsCore
@@ -356,8 +356,8 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
-# Google PlayStore
-# v. 6.3.15.B-all
+# Google Play Store
+# v. 6.3.16.B-all [0] 2697688 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Phonesky
@@ -371,7 +371,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google App
-# v. 5.10.32.19.arm
+# v. 5.11.33.19.arm
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Velvet
@@ -385,6 +385,9 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+# Google Services Framework
+# v. 6.0.1 
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleServicesFramework
 LOCAL_SRC_FILES := system/priv-app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
@@ -397,7 +400,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Text-to-speech
-# v. 3.8.13
+# v. 3.8.16 (arm)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleTTS
@@ -413,6 +416,7 @@ include $(BUILD_PREBUILT)
 
 # Hangouts
 # v. 8.0.116581895
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := Hangouts
 LOCAL_SRC_FILES := system/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
@@ -440,7 +444,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Maps
-# v. 9.22.0
+# v. 9.22.2
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Maps
@@ -454,7 +458,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Music
-# v. 6.5.2513X.2681020
+# v. 6.6.2612Y.2725627
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Music2
@@ -469,7 +473,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Photos
-# v. 1.16.0.117288110 (480dpi)
+# v. 1.17.0.118258643 (480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Photos
@@ -530,7 +534,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Gmail
-# v. 6.0.115979076.release
+# v. 6.3.117716127.release
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltGmail
@@ -576,6 +580,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
+
+# Google TalkBack
+# v. 4.4.1
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := talkback
@@ -629,7 +636,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Android System WebView
-# 50.0.2661.35 (arm)
+# 50.0.2661.59 (arm)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WebViewGoogle
@@ -644,7 +651,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # YouTube
-# v. 11.07.59-110759634
+# v. 11.10.60 (arm) (480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YouTube
