@@ -24,7 +24,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Calendar
-# 5.3.6-115544951-release
+# 5.4-119043132-release
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalendarGooglePrebuilt
@@ -39,7 +39,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Chrome Beta
-# v. 50.0.2661.57
+# v. 50.0.2661.76
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ChromeBeta
@@ -79,7 +79,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Drive
-# v. 2.3.631.15.35 (arm) (480dpi)
+# v. 2.4.141.16.35 (arm) (480dpi) 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Drive
@@ -186,6 +186,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
+
+# Google Contacts
+# v. 1.4.9
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleContacts
@@ -343,7 +346,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Play Services
-# v. 8.7.03 (2645110-438)
+# v. 8.9.16 (119062951-438)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltGmsCore
@@ -357,7 +360,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Play Store
-# v. 6.3.16.B-all [0] 2697688 
+# v. 6.4.13.C-all [0] 2754070-80641300
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Phonesky
@@ -371,7 +374,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google App
-# v. 5.11.33.19.arm
+# v. 5.11.35.19.arm
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Velvet
@@ -444,7 +447,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Maps
-# v. 9.22.2
+# v. 9.23.1
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Maps
@@ -473,7 +476,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Photos
-# v. 1.17.0.118258643 (480dpi)
+# v. 1.18.0.119671374 (480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Photos
