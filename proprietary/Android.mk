@@ -24,7 +24,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Calendar
-# 5.4-119043132-release
+# v. 5.5-121019539-release 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalendarGooglePrebuilt
@@ -39,7 +39,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Chrome Beta
-# v. 50.0.2661.76
+# v. 51.0.2704.28
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ChromeBeta
@@ -175,6 +175,9 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+# Google Camera
+# v. 3.2.042 
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleCamera
 LOCAL_OVERRIDES_PACKAGES := Camera2
@@ -229,7 +232,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Dialer
-# v. 2.3.17
+# v. 2.05.07_rc4 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleDialer
@@ -374,7 +377,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google App
-# v. 5.11.35.19.arm
+# v. 5.12.34.21.arm
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Velvet
@@ -432,7 +435,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Keyboard
-# 4.1.23163.2622203
+# v. 5.0.18.121010836-armeabi-v7a 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := LatinImeGoogle
@@ -447,7 +450,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Maps
-# v. 9.23.1
+# v. 9.25.1
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Maps
@@ -461,7 +464,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Music
-# v. 6.6.2612Y.2725627
+# v. 6.7.2713Z.2790541
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Music2
@@ -476,7 +479,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Photos
-# v. 1.18.0.119671374 (480dpi)
+# v. 1.19.0.120877342 (arm) (400-480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Photos
@@ -537,7 +540,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Gmail
-# v. 6.3.117716127.release
+# v. 6.4.120760496.release 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltGmail
@@ -625,7 +628,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Android Pay
-# v. 1.2.111627672 (930004774)
+# v. 1.3.120831396 (930007798)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Wallet
@@ -639,7 +642,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Android System WebView
-# 50.0.2661.59 (arm)
+# 50.0.2661.86 (arm)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WebViewGoogle
@@ -654,7 +657,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # YouTube
-# v. 11.10.60 (arm) (480dpi)
+# v. 11.16.62 (arm) (480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YouTube
