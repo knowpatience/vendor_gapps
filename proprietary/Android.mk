@@ -39,7 +39,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Chrome Beta
-# v. 51.0.2704.54 (arm) 
+# v. 51.0.2704.61 (arm) 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ChromeBeta
@@ -363,7 +363,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Play Store
-# v. 6.4.13.C-all [0] 2754070-80641300
+# v. 6.7.13.E-all [0] 2920566-80671300
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Phonesky
@@ -377,7 +377,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google App
-# v. 5.12.35.21.arm
+# v. 5.13.31.21.arm
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Velvet
@@ -406,7 +406,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Text-to-speech
-# v. 3.8.16 (arm)
+# v. 3.9.11 (arm)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleTTS
@@ -421,7 +421,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Hangouts
-# v. 8.1.121732641 (arm)
+# v. 10.0.123391178 (arm) (400-480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Hangouts
@@ -450,7 +450,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Maps
-# v. 9.25.1
+# v. 9.26.1 (arm) (400-640dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Maps
@@ -464,7 +464,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Music
-# v. 6.8.2817A.2862803 
+# v. 6.9.2919B.2927652
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Music2
@@ -479,7 +479,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Photos
-# v. 1.20.0.121907115 (arm) (400-480dpi)
+# v. 1.21.0.123281648 (arm) (400-480dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Photos
@@ -527,6 +527,9 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+# Exchange Services
+# v. 6.4.121434427.release 
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltExchange3Google
 LOCAL_OVERRIDES_PACKAGES := Exchange2
@@ -540,7 +543,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Gmail
-# v. 6.4.120760496.release 
+# v. 6.5-1.123769152.release 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltGmail
@@ -588,7 +591,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google TalkBack
-# v. 4.4.1
+# v. 4.5.0
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := talkback
@@ -660,7 +663,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # YouTube
-# v. 11.18.52 (arm) (480dpi) 
+# v. 11.20.54 (arm) (480dpi) 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YouTube

@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     GoogleDialer \
     GoogleBackupTransport \
     GoogleFeedback \
+    GoogleEars \
     GoogleLoginService \
     GoogleOneTimeInitializer \
     GooglePackageInstaller \
