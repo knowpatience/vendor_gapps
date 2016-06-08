@@ -24,7 +24,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Calendar
-# v. 5.5.2-121651413-release  
+# v. 5.5.4-123319114-release  
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalendarGooglePrebuilt
@@ -39,7 +39,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Chrome Beta
-# v. 51.0.2704.61 (arm) 
+# v. 51.0.2704.77 (arm) 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ChromeBeta
@@ -79,7 +79,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Drive
-# v. 2.4.181.13.35 (arm)
+# v. 2.4.211.21.35 (arm) (480dpi) 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Drive
@@ -217,7 +217,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Google Desk Clock
-# v. 4.3
+# v. 4.4
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleDeskClock
@@ -450,7 +450,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Maps
-# v. 9.26.1 (arm) (400-640dpi)
+# v. 9.27.1 (arm) (400-640dpi)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Maps
@@ -479,7 +479,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 # Photos
-# v. 1.21.0.123281648 (arm) (400-480dpi)
+# v. 1.22.0.124168645 (arm) (400-480dpi) 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Photos
