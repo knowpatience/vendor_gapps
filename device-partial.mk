@@ -127,10 +127,10 @@ PRODUCT_PACKAGES += \
     GoogleOneTimeInitializer \
     GooglePackageInstaller \
     GooglePartnerSetup \
+    GoogleServicesFramework \
     Phonesky \
     PrebuiltGmsCore \
-    Velvet \
-    GoogleServicesFramework \
     SetupWizard \
     TagGoogle \
+    Velvet \
 
