@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
     talkback \
     Videos \
     Wallet \
+    WallpaperPickerGooglePrebuilt \
     WebViewGoogle \
     YouTube \
 
@@ -128,6 +129,7 @@ PRODUCT_PACKAGES += \
     GooglePackageInstaller \
     GooglePartnerSetup \
     GoogleServicesFramework \
+    NexusLauncherPrebuilt \
     Phonesky \
     PrebuiltGmsCore \
     SetupWizard \
